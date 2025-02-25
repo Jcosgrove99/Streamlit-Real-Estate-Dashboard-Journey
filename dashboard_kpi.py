@@ -6,7 +6,6 @@ import numpy as np
 from functions import * 
 
 
-
 st.header("Welcome to your real estate accelerator")
 uploaded_file = st.file_uploader(label="Upload **Stessa Transactions** Data .csv", type=['.csv'])
 if uploaded_file is not None:
